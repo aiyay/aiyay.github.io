@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<title>(转)Node.js搬运过来的那种Ⅱ——代码的组织和部署 - Ay</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#2a2b33">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="translucent">
+<meta name="description" content="文章来源于nqdeng,感谢大佬的分享; 代码的组织和部署有经验的C程序员在编写一个新程序时首先从make文件写起。同样的，使用NodeJS编写程序前，为了有个良好的开端，首先需要准备好代码的目录结构和部署方式，就如同修房子要先搭脚手架。本章将介绍与之相关的各种知识。 模块路径解析规则我们已经知道，require函数支持斜杠（/）或盘符（C:）开头的绝对路径，也支持./开头的相对路径。但这两种路径">
+<meta name="keywords" content="npm,node.js,reprint">
+<meta property="og:type" content="website">
+<meta property="og:title" content="(转)Node.js搬运过来的那种Ⅱ——代码的组织和部署">
+<meta property="og:url" content="http://yoursite.com/post/nodejs_02_code_management_and_deployment/index.html">
+<meta property="og:site_name" content="Ay">
+<meta property="og:description" content="文章来源于nqdeng,感谢大佬的分享; 代码的组织和部署有经验的C程序员在编写一个新程序时首先从make文件写起。同样的，使用NodeJS编写程序前，为了有个良好的开端，首先需要准备好代码的目录结构和部署方式，就如同修房子要先搭脚手架。本章将介绍与之相关的各种知识。 模块路径解析规则我们已经知道，require函数支持斜杠（/）或盘符（C:）开头的绝对路径，也支持./开头的相对路径。但这两种路径">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-09-11T03:49:48.166Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="(转)Node.js搬运过来的那种Ⅱ——代码的组织和部署">
+<meta name="twitter:description" content="文章来源于nqdeng,感谢大佬的分享; 代码的组织和部署有经验的C程序员在编写一个新程序时首先从make文件写起。同样的，使用NodeJS编写程序前，为了有个良好的开端，首先需要准备好代码的目录结构和部署方式，就如同修房子要先搭脚手架。本章将介绍与之相关的各种知识。 模块路径解析规则我们已经知道，require函数支持斜杠（/）或盘符（C:）开头的绝对路径，也支持./开头的相对路径。但这两种路径">
+<link rel="stylesheet" href="/theme.3982ec37e1e709feffac.css">
+<link rel="stylesheet" href="/styles.89afe31ae4afb635fb0c.css">
+
+<script src="/config.b281d77e7c1c026a07cb.js"></script>
+</head>
+<body>
+<is-root></is-root>
+<script src="/runtime.a66f828dca56eeb90e02.js"></script>
+<script src="/polyfills.8f67e44aa389442fc98e.js"></script>
+<script src="/main.d1aa37df26e35d2c4502.zh-Hans.js"></script>
+</body>
+</html>
